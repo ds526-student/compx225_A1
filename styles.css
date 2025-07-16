@@ -1,24 +1,106 @@
+/*
+    general design
+*/
+
+
+
+/*
+    header design
+*/
+
+header {
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ribbon {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 65px;
+}
+
+
+
+
+/*
+    navbar design
+*/
+
+nav {
+    border-color: #000000;
+    /* border-bottom: #DDDDDD solid 1px; */
+    border-top: #DDDDDD solid 1px;
+}
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    margin-left: -50px;
+    margin-right: -50px;
+    padding-left: 100px;
+    padding-right: 50px;
 }
 
 li {
-  float: left;
+    float: left;
+    border-color: #000000;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+    color: #e1251b;
 }
+
+
+/*
+    body design
+*/
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.content {
+    padding-left: 100px;
+    padding-right: 120px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 35px;
+}
+
+/*
+    footer design
+*/
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*
+    ID specific design
+*/

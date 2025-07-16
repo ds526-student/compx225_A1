@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <header>
-        <div id="ribbon">
+        <div class="ribbon">
             <a href="https://www.waikato.ac.nz">
                 <img 
                     src="resources\logos\UoW_horizontal_black.png"
@@ -16,12 +16,6 @@
                     style="width: 200px; height: auto;"
                 >
             </a>
-            <img 
-                src="resources/logos/Vcc_logo.png" 
-                alt="Vibe Coders Club Logo" 
-                class="logo"
-                style="width: 150px; height: auto;"    
-            >
         </div>
         <nav>
             <ul>
@@ -32,30 +26,40 @@
         </nav>
     </header>
     <body>
-        <h1>Vibe Coders Club</h1>
-        <h2>Registration</h2>
-        <p>Register to join our club!</p>
+        <div class="content">
+            <div class="title">
+                <img 
+                    src="resources/logos/Vcc_logo.png" 
+                    alt="Vibe Coders Club Logo" 
+                    class="logo"
+                    style="width: auto; height: 75px;"    
+                >
+                <h1>Vibe Coders Club</h1>
+            </div>
+            <h2>Registration</h2>
+            <p>Register to join our club!</p>
 
-        <form action="submit_registration.html" method="post">
-            <label for="firstName">First Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" required>
+            <form action="submit_registration.html" method="post">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
 
-            <label for="studentId">Student ID:</label>
-            <input type="number" id="studentId" name="studentId" required>
+                <label for="studentId">Student ID:</label>
+                <input type="number" id="studentId" name="studentId" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="phoneNumber">Phone Number:</label>
-            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
 
-            <label for="info">Where did you hear about us?:</label>
-            <textarea id="info" name="info" rows="2"></textarea>
+                <label for="info">Where did you hear about us?:</label>
+                <textarea id="info" name="info" rows="2"></textarea>
 
-            <button type="submit">Submit</button>
-        </form>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </body>
 </html>
