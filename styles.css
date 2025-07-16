@@ -30,42 +30,51 @@ header {
     navbar design
 */
 
+/* adjusts everything in the nav */
 nav {
     border-color: #000000;
-    /* border-bottom: #DDDDDD solid 1px; */
     border-top: #DDDDDD solid 1px;
+    border-bottom: #DDDDDD solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px 10px 60px;
+    /* padding-left: 60px;
+    padding-right: 35px;
+    padding-top: 15px */
 }
 
-ul {
+/* everything on the right side of the nav bar */
+.nav-right {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display: flex;
+    padding-right: 150px;
     background-color: #FFFFFF;
-    margin-left: -50px;
-    margin-right: -50px;
-    padding-left: 100px;
-    padding-right: 50px;
 }
-
-li {
-    float: left;
-    border-color: #000000;
-}
-
-li a {
+    
+/* list items in the nav bar */
+.nav-right li a {
     display: block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
 
-li a:hover {
+/* hover effect for the links in the nav bar */
+.nav-right li a:hover {
     color: #e1251b;
 }
+
+/* everything on the left side of the nav bar */
+.nav-left {
+    padding-top: 20px;
+}
+
+
 
 
 /*
