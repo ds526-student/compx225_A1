@@ -2,46 +2,32 @@
     general design
 */
 
-
-
-/*
-    header design
-*/
-
-header {
-    text-align: left;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #eeeeee;
 }
 
-.ribbon {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    padding-left: 65px;
+.content {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eeeeee;
 }
-
-
-
 
 /*
     navbar design
 */
 
 /* adjusts everything in the nav */
-nav {
+.nav {
     border-color: #000000;
-    border-top: #DDDDDD solid 1px;
-    border-bottom: #DDDDDD solid 1px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 35px 10px 60px;
-    /* padding-left: 60px;
-    padding-right: 35px;
-    padding-top: 15px */
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
 }
 
 /* everything on the right side of the nav bar */
@@ -51,7 +37,7 @@ nav {
     padding: 0;
     display: flex;
     padding-right: 150px;
-    background-color: #FFFFFF;
+    margin-top: 20px;
 }
     
 /* list items in the nav bar */
@@ -59,14 +45,15 @@ nav {
     display: block;
     color: white;
     padding: 14px 16px;
-    color: #000000;
+    color: #76428a;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
 }
 
 /* hover effect for the links in the nav bar */
 .nav-right li a:hover {
-    color: #e1251b;
+    color: #222222;
 }
 
 /* everything on the left side of the nav bar */
@@ -78,26 +65,21 @@ nav {
 
 
 /*
-    body design
+    info design
 */
 
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #FFFFFF;
+.slogan {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #EEEEEE;
+    color: #222222;
 }
 
-.content {
-    padding-left: 100px;
-    padding-right: 120px;
-}
-
-.title {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    padding-left: 35px;
+.about-section {
+    padding: 30px 300px 30px 300px;
+    color: #dedede;
+    background-color: #b262b2;
 }
 
 /*
