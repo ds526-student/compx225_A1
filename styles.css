@@ -82,13 +82,22 @@ footer p {
     font-size: 15px !important;
 }
 
-
-
-/*
-    index design
+/* 
+    general content design
 */
 
-.index-slogan {
+.inline-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px
+}
+
+.inline-padding {
+    padding: 30px 350px 30px 350px;
+}
+
+.centre-content {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -96,28 +105,12 @@ footer p {
     color: #222222;
 }
 
-.index-about-section {
-    padding: 30px 350px 30px 350px;
+.inline-left-text {
     color: #dedede;
     background-color: #b262b2;
 }
 
-.index-about-section-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px
-}
-
-.index-section-two{
-    padding: 30px 350px 30px 350px;
+.inline-right-text {
     background-color: #EEEEEE;
     color: #222222;
-}
-
-.index-section-two-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
 }
