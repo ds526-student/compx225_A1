@@ -1,4 +1,8 @@
 /*
+    lines 5 to 83 is CSS consistent amongst all files
+*/
+
+/*
     general design
 */
 
@@ -7,6 +11,10 @@ html, body {
     padding: 0;
     width: 100%;
     background-color: #eeeeee;
+}
+
+p {
+    font-size: 25px;
 }
 
 .content {
@@ -61,27 +69,6 @@ html, body {
     padding-top: 20px;
 }
 
-
-
-
-/*
-    info design
-*/
-
-.slogan {
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: #EEEEEE;
-    color: #222222;
-}
-
-.about-section {
-    padding: 30px 300px 30px 300px;
-    color: #dedede;
-    background-color: #b262b2;
-}
-
 /*
     footer design
 */
@@ -91,7 +78,46 @@ footer {
     padding: 10px;
 }
 
+footer p {
+    font-size: 15px !important;
+}
+
+
 
 /*
-    ID specific design
+    index design
 */
+
+.index-slogan {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #EEEEEE;
+    color: #222222;
+}
+
+.index-about-section {
+    padding: 30px 350px 30px 350px;
+    color: #dedede;
+    background-color: #b262b2;
+}
+
+.index-about-section-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px
+}
+
+.index-section-two{
+    padding: 30px 350px 30px 350px;
+    background-color: #EEEEEE;
+    color: #222222;
+}
+
+.index-section-two-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
