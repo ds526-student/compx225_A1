@@ -41,37 +41,66 @@
                 </div>
             </div>
 
-            <!-- <form action="submit_registration.html" method="post">
-                <label for="firstName">First Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName" name="lastName" required>
+            <div class="inline-right-text">
+                <table id="registration-form">
+                    <tr>
+                        <th>Field</th>
+                        <th>Input</th>
+                    </tr>
 
-                <label for="studentId">Student ID:</label>
-                <input type="number" id="studentId" name="studentId" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="phoneNumber">Phone Number:</label>
-                <input type="tel" id="phoneNumber" name="phoneNumber" required>
-
-                <label for="info">Where did you hear about us?:</label>
-                <textarea id="info" name="info" rows="2"></textarea>
-
-                <button type="submit">Submit</button>
-            </form> -->
-            <footer>
-                <p>&copy; 2025 University of Waikato. All rights reserved.</p>
-                <a href="https://www.waikato.ac.nz/">
-                    <img 
-                        src="../../resources/logos/UoW_vertical_white.png" 
-                        alt="University of Waikato logo" 
-                        style="width: 100px; height: auto;"
-                    >
-                </a>
-            </footer>
-        </div>
+                    <form method="POST">
+                        <tr>
+                            <td>First Name:</td>
+                            <td><input type="text" id="firstName" name="firstName" required></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name:</td>
+                            <td><input type="text" id="lastName" name="lastName" required></td>
+                        </tr>
+                        <tr>
+                            <td>Student ID:</td>
+                            <td><input type="number" id="studentId" name="studentId" required></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" id="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td>Phone Number:</td>
+                            <td><input type="tel" id="phoneNumber" name="phoneNumber" required></td>
+                        </tr>
+                        <tr>
+                            <td>Where did you hear about us?:</td>
+                            <td><textarea id="info" name="info" rows="2"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button type="submit">Submit</button></td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
+            <div class="inline-left-text inline-padding">
+                <h2>Contact Us</h2>
+                    <p>
+                        If you have any questions or need assistance with the registration process, feel free to contact us at:
+                        <br><br>
+                        Email: vibecoders@example.com
+                        <br>
+                        Phone: +1 234 567 890
+                        <br><br>
+                        We look forward to welcoming you to the Vibe Coders Club!
+                    </p>
+            </div>
+        </div>  
+        <footer>
+            <p>&copy; 2025 University of Waikato. All rights reserved.</p>
+            <a href="https://www.waikato.ac.nz/">
+                <img 
+                    src="../../resources/logos/UoW_vertical_white.png" 
+                    alt="University of Waikato logo" 
+                    style="width: 100px; height: auto;"
+                >
+            </a>
+        </footer>
     </body>
 </html>
